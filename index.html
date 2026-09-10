@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julia Barrios - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Julia barrios</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li> 
+        <li><a href="https://github.com/Julia-b-work">Github</a></li> 
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Greetings, I'm <span class="highlight">Julia</span></h2>
+        <p class="subtitle">Developer &amp; Creator</p>
+        <p class="description">Working to better my coding skills.</p>
+        <a href="#contact" class="btn">Contact me!</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About me</h2>
+      <div class="about-content">
+        <p>
+            I'm a developer that loves tech and programming. I have experiences with 
+            coding solutions in C, C++ and Python and I am always looking for new challenges             and learning opportunities.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>tbd</p>
+          <a href="#" class="project-link">Learn more &rarr;</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>tbd</p>
+          <a href="#" class="project-link">Learn more &rarr;</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 3</h3>
+          <p>tbd</p>
+          <a href="#" class="project-link">Learn more &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form id="contact-form" action="/contact" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+        <p id="form-feedback" style="display:none; margin-top:1rem; color:#4caf50;"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Julia. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
