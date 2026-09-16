@@ -1,8 +1,8 @@
 # Portfolio — Julia Barrios
 
-Personal portfolio website for Julia Barrios, a developer working primarily in
-C, C++, and Python. Built as a lightweight single-page site with a small
-Node.js backend for the contact form.
+Personal portfolio website for Julia Barrios, a Computer Engineering student
+at UFSCar. Built as a lightweight single-page site with a small Node.js backend
+for the contact form.
 
 **Live site:** [https://portfolio-6rx8.onrender.com](https://portfolio-6rx8.onrender.com)
 
